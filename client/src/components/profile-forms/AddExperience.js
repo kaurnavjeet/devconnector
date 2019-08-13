@@ -1,6 +1,6 @@
 import React, { useState, Fragment } from "react";
 import PropTypes from "prop-types";
-import { Link, Redirect } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { addExperience } from "../../actions/profile";
 
@@ -121,4 +121,4 @@ AddExperience.propTypes = {
 export default connect(
   null,
   { addExperience }
-)(AddExperience);
+)(withRouter(AddExperience));
