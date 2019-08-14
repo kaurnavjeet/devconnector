@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://navjeet:1234@devconnector-kuv3x.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "cbb757bde87457669cba",
+  "githubSecret": "b23c9177c370da6c383b933184f88466ba1e025b"
+}
